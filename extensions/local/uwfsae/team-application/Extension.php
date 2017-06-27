@@ -12,7 +12,7 @@ class Extension extends BaseExtension
     const TZ = 'America/Los_Angeles';
     const APP_VIEW_DEADLINE = '2017-10-06 23:59:00';
     const APP_SUBMIT_DEADLINE = '2017-10-07 3:00:00';
-    const SPREADSHEET_ID = '1v-zFjQwI0UxWZPOcjL6pPhChVjnwPnD_qYq9xntUEPQ';
+    const SPREADSHEET_ID = '16yqd6oLNNjlp2l9ozH1Sgdjj_MugCA5fqs36epyvDjw';
 
     private $client;
     private $driveService;
