@@ -2,14 +2,9 @@
 
 {%
 set tech_teams = [
-    'Aerodynamics',
-    'Chassis',
-    'Composites',
-    'Drivetrain',
+    
     'Electronics',
-    'eTrain',
-    'Manufacturing',
-    'Suspension',
+    
 ]
 %}
 {%
@@ -114,14 +109,14 @@ set admin_teams = [
         </div>
     </div>
 
-    <!-- Second choice tech team -->
+    {#<!-- Second choice tech team -->
 
     <div class="form-group">
         <label for="2nd_tech_team" class="col-sm-3 control-label">2<sup>nd</sup> choice tech team</label>
         <div class="col-sm-9">
             {{ select('2nd_tech_team', tech_teams, '--- choose a team ---') }}
         </div>
-    </div>
+    </div>#}
 
     <!-- Tech team justification -->
     <div class="form-group">
