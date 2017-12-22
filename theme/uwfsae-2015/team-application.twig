@@ -20,7 +20,7 @@ set admin_teams = [
 
 {% set data = team_application_handler() %}
 
-{% if data.expired %}
+{% if {#data.expired#} false %}
 
 <h3>Application Closed</h3>
 
