@@ -868,6 +868,7 @@ body {
                             </select>
                             <input type="text" name="zipcode" placeholder="Zip" />
                             <input type="text" name="tshirt" placeholder="T-Shirt size & special requests" />
+                            <input type="text" name="giftmatching" placeholder="Does your employer gift match?" /> 
                         </div>
                         <button type="submit" class="purple-button" id="donate-button" style="width: 100%; margin-top: 3.33vw;">Donate</button>
                     </form>
@@ -1148,7 +1149,8 @@ var validateCheckoutForm = function() {
             'address1',
             'city',
             'zipcode',
-            'tshirt'
+            'tshirt',
+            'giftmatching'
         );
     }
 
